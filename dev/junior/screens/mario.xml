@@ -1,0 +1,9 @@
+<graphics>
+	<url>gfx/mario2.png</url>
+	<states>
+		<state>
+			<pix x="2">59,92</pix>
+			<pix x="49">59,92</pix>
+		</state>
+	</states>
+</graphics>

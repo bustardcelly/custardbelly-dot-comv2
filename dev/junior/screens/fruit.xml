@@ -1,0 +1,21 @@
+<graphics>
+	<url>gfx/fruit2.png</url>
+	<states>
+		<state>
+			<pix x="150">40,54</pix>
+			<pix x="160">40,54</pix>
+		</state>
+		<state>
+			<pix x="149">73,87</pix>
+			<pix x="160">73,87</pix>
+		</state>
+		<state>
+			<pix x="146">114,127</pix>
+			<pix x="160">114,127</pix>
+		</state>
+		<state>
+			<pix x="144">146,158</pix>
+			<pix x="157">146,158</pix>
+		</state>
+	</states>
+</graphics>

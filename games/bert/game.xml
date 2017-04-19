@@ -1,0 +1,105 @@
+﻿<game title="fluff*bert" author="todd anderson">
+	<levels>
+<!-- LEVEL 1 //enemies allowed: whammy, snake-->
+		<level num="1">
+			<board>
+				<!-- first node start color, following nodes change color-->
+				<tiles>
+					<tile num="0,0,0,0,0,0,0"></tile>
+					<tile num="0,0,0,0,0,0"></tile>
+					<tile num="0,0,0,0,0"></tile>
+					<tile num="0,0,0,0"></tile>
+					<tile num="0,0,0"></tile>
+					<tile num="0,0"></tile>
+					<tile num="0"></tile>
+				</tiles>
+				<colors turnover="false">
+					<top color="0xFFFF00"></top>
+					<top color="0x66ccFF"></top>
+				<!--	<top color="0x9966cc"></top> -->
+				</colors>
+			</board>
+			<discs>
+				<!-- y based on tile number y coordinate -->
+				<disc id="disc" side="left" y="3"></disc>
+				<disc id="disc" side="right" y="3"></disc>
+			</discs>
+			<hero>
+				<position x="6" y="0"></position>
+			</hero>
+			<enemies>
+				<!-- landy based on start of enemy on tile number, landx is random in Game Class -->
+				<enemy id="whammy" landy="1" landx="5" startinterval="3000" interval="1000"></enemy>
+				<enemy id="snake" landy="0" landx="6" startinterval="7300" interval="1000"></enemy>
+			</enemies>
+		</level>
+<!-- LEVEL 2 //enemies allowed: whammy, snake, goblin-->
+		<level num="2">
+			<board>
+				<!-- first node start color, following nodes change color-->
+				<tiles>
+					<tile num="0,0,0,0,0,0,0"></tile>
+					<tile num="0,0,0,0,0,0"></tile>
+					<tile num="0,0,0,0,0"></tile>
+					<tile num="0,0,0,0"></tile>
+					<tile num="0,0,0"></tile>
+					<tile num="0,0"></tile>
+					<tile num="0"></tile>
+				</tiles>
+				<colors turnover="false">
+					<top color="0xFFFF00"></top>
+					<top color="0x66ccFF"></top>
+					<top color="0x9966cc"></top>
+				</colors>
+			</board>
+			<discs>
+				<!-- y based on tile number y coordinate -->
+				<disc id="disc" side="left" y="5"></disc>
+				<disc id="disc" side="right" y="3"></disc>
+			</discs>
+			<hero>
+				<position x="6" y="0"></position>
+			</hero>
+			<enemies>
+				<!-- landy based on start of enemy on tile number, landx is random in Game Class -->
+				<enemy id="whammy" landy="1" landx="5" startinterval="3000" interval="1000"></enemy>
+				<enemy id="snake" landy="0" landx="6" startinterval="7300" interval="1000"></enemy>
+				<enemy id="goblin" landy="0" landx="6" startinterval="11500" interval="1000"></enemy>
+			</enemies>
+		</level>
+<!-- LEVEL 3 //enemies allowed: whammy, snake, goblin-->
+		<level num="3">
+			<board>
+				<!-- first node start color, following nodes change color-->
+				<tiles>
+					<tile num="0,0,0,0,0,0,0"></tile>
+					<tile num="0,0,0,0,0,0"></tile>
+					<tile num="0,0,0,0,0"></tile>
+					<tile num="0,0,0,0"></tile>
+					<tile num="0,0,0"></tile>
+					<tile num="0,0"></tile>
+					<tile num="0"></tile>
+				</tiles>
+				<colors turnover="true">
+					<top color="0xFFFF00"></top>
+					<top color="0x66ccFF"></top>
+					<top color="0x9966cc"></top>
+				</colors>
+			</board>
+			<discs>
+				<!-- y based on tile number y coordinate -->
+				<disc id="disc" side="left" y="2"></disc>
+				<disc id="disc" side="right" y="5"></disc>
+			</discs>
+			<hero>
+				<position x="6" y="0"></position>
+			</hero>
+			<enemies>
+				<!-- landy based on start of enemy on tile number, landx is random in Game Class -->
+				<enemy id="whammy" landy="1" landx="5" startinterval="3000" interval="1000"></enemy>
+				<enemy id="snake" landy="0" landx="6" startinterval="6300" interval="1000"></enemy>
+				<enemy id="goblin" landy="0" landx="6" startinterval="10500" interval="1000"></enemy>
+			</enemies>
+		</level>
+	</levels>
+</game>

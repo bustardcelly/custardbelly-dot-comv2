@@ -1,0 +1,13 @@
+<graphics>
+	<url>gfx/mario_arms.png</url>
+	<states>
+		<state>
+			<pix x="1">78,92</pix>
+			<pix x="10">78,92</pix>
+		</state>
+		<state>
+			<pix x="24">67,81</pix>
+			<pix x="35">67,81</pix>
+		</state>
+	</states>
+</graphics>

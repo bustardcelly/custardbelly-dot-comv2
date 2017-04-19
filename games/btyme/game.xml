@@ -1,0 +1,62 @@
+﻿<!-- BurgerTime -->
+<game title="BurgerTime" heroID="player" heroSize="20" tileID="tile_mc" tileSize="30" recreator="Todd Anderson" date="02/27/05">
+	<levels>
+<!-- 1st LEVEL -->
+		<level num="1">
+			<!-- 15 x 11 board, line string -->
+			<board>
+				<row line="0,1,2,2,1,2,2,1,2,2,1,2,2,1,0"/>
+				<row line="0,6,3,3,6,6,3,6,3,3,6,3,3,6,0"/>
+				<row line="0,4,2,2,4,6,3,4,2,2,4,2,2,4,0"/>
+				<row line="0,3,3,3,4,5,2,4,6,3,6,3,3,6,0"/>
+				<row line="0,1,2,2,4,3,3,6,6,3,4,2,2,4,0"/>
+				<row line="0,6,6,3,4,2,2,4,5,2,4,3,3,3,0"/>
+				<row line="0,6,6,3,6,3,3,6,3,3,4,2,2,1,0"/>
+				<row line="0,4,5,2,4,2,2,4,2,2,4,3,3,6,0"/>
+				<row line="0,6,3,3,6,3,3,6,3,3,6,3,3,6,0"/>
+				<row line="0,4,2,2,4,2,2,4,2,2,4,2,2,4,0"/>
+				<row line="0,3,3,3,3,3,3,3,3,3,3,3,3,3,0"/>
+			</board>
+			<!-- 4 enemies, ids,  positions releative to board -->
+			<enemies>
+				<enemy num="1" id="enemy" iq="dumb" x="13" y="2"/>
+				<enemy num="2" id="enemy" iq="dumb" x="7" y="3"/>
+				<enemy num="3" id="egg" iq="smart" x="1" y="0"/>
+				<enemy num="4" id="egg" iq="smart" x="13" y="6"/>
+			</enemies>
+			<!-- hero position relative to board -->
+			<hero>
+				<position x="7" y="9"/>
+			</hero>
+		</level>
+<!-- 2nd LEVEL -->
+		<level num="2">
+			<!-- 14 x 10 board, line string -->
+			<board>
+				<row line="0,1,2,2,1,2,2,1,2,2,1,2,2,1,0"/>
+				<row line="0,4,2,2,6,6,3,6,3,3,6,3,3,6,0"/>
+				<row line="0,4,2,2,4,6,3,4,2,2,4,2,2,4,0"/>
+				<row line="0,6,3,3,4,5,2,4,6,3,4,2,2,4,0"/>
+				<row line="0,4,2,2,4,2,2,6,6,3,6,3,6,3,0"/>
+				<row line="0,3,6,3,6,3,3,4,5,2,4,2,5,3,0"/>
+				<row line="0,3,5,2,4,2,2,4,2,2,4,2,2,3,0"/>
+				<row line="0,3,3,3,6,3,3,6,3,3,6,3,3,3,0"/>
+				<row line="0,3,3,3,4,2,2,4,2,2,4,3,3,3,0"/>
+				<row line="0,3,3,3,3,3,3,4,3,3,3,3,3,3,0"/>
+				<row line="0,3,3,3,3,3,3,3,3,3,3,3,3,3,0"/>
+			</board>
+			<!-- 4 enemies, ids,  positions releative to board -->
+			<enemies>
+				<enemy num="1" id="pickle" iq="intelligent" x="1" y="0"/>
+				<enemy num="2" id="enemy" iq="dumb" x="13" y="3"/>
+				<enemy num="3" id="egg" iq="smart" x="1" y="4"/>
+				<enemy num="3" id="egg" iq="smart" x="12" y="5"/>
+			</enemies>
+			<!-- hero position relative to board -->
+			<hero>
+				<position x="7" y="9"/>
+			</hero>
+		</level>
+<!-- 3rd LEVEL -->
+	</levels>
+</game>
