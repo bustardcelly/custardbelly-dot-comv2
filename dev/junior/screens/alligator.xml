@@ -1,0 +1,57 @@
+<graphics>
+	<url>gfx/alligator2.png</url>
+	<states>
+		<state>
+			<pix x="24">161,171</pix>
+			<pix x="38">161,171</pix>
+		</state>
+		<state>
+			<pix x="61">158,171</pix>
+			<pix x="79">158,171</pix>
+		</state>
+		<state>
+			<pix x="104">163,171</pix>
+			<pix x="120">163,171</pix>
+		</state>
+		<state>
+			<pix x="144">160,171</pix>
+			<pix x="159">160,171</pix>
+		</state>
+		<state>
+			<pix x="187">159,171</pix>
+			<pix x="202">159,171</pix>
+		</state>
+		<state>
+			<pix x="220">163,171</pix>
+			<pix x="238">163,171</pix>
+		</state>
+		<state>
+			<pix x="258">159,171</pix>
+			<pix x="275">159,171</pix>
+		</state>
+		<state>
+			<pix x="260">90,106</pix>
+			<pix x="273">90,106</pix>
+		</state>
+		<state>
+			<pix x="218">90,103</pix>
+			<pix x="235">90,103</pix>
+		</state>
+		<state>
+			<pix x="184">95,103</pix>
+			<pix x="198">95,103</pix>
+		</state>
+		<state>
+			<pix x="142">90,102</pix>
+			<pix x="158">90,102</pix>
+		</state>
+		<state>
+			<pix x="101">93,103</pix>
+			<pix x="117">93,103</pix>
+		</state>
+		<state>
+			<pix x="68">92,103</pix>
+			<pix x="84">92,103</pix>
+		</state>
+	</states>
+</graphics>

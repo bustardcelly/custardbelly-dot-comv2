@@ -1,0 +1,37 @@
+<graphics>
+	<url>gfx/birds2.png</url>
+	<states>
+		<state>
+			<pix x="4">102,118</pix>
+			<pix x="18">102,118</pix>
+		</state>
+		<state>
+			<pix x="22">122,135</pix>
+			<pix x="39">122,135</pix>
+		</state>
+		<state>
+			<pix x="61">122,135</pix>
+			<pix x="81">122,135</pix>
+		</state>
+		<state>
+			<pix x="102">125,141</pix>
+			<pix x="121">125,141</pix>
+		</state>
+		<state>
+			<pix x="144">129,139</pix>
+			<pix x="162">129,139</pix>
+		</state>
+		<state>
+			<pix x="181">127,139</pix>
+			<pix x="202">127,139</pix>
+		</state>
+		<state>
+			<pix x="222">121,135</pix>
+			<pix x="240">121,135</pix>
+		</state>
+		<state>
+			<pix x="259">110,124</pix>
+			<pix x="278">110,124</pix>
+		</state>
+	</states>
+</graphics>

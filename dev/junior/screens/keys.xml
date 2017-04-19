@@ -1,0 +1,34 @@
+<graphics>
+	<url>gfx/keys2.png</url>
+	<states>
+		<state>
+			<pix x="114">10,11</pix>
+			<pix x="115">10,11</pix>
+			<pix x="116">11,12</pix>
+			<pix x="117">12,13</pix>
+			<pix x="118">13,14</pix>
+			<pix x="119">14,15</pix>
+			<pix x="120">15,16</pix>
+			<pix x="121">16,17</pix>
+			<pix x="122">17,24</pix>
+			<pix x="123">17,23</pix>
+			<pix x="126">17,28</pix>
+			<pix x="132">17,28</pix>
+		</state>
+		<state>
+			<pix x="111">12,35</pix>
+			<pix x="114">19,35</pix>
+			<pix x="116">21,35</pix>
+			<pix x="119">24,35</pix>
+			<pix x="122">24,35</pix>
+		</state>
+		<state>
+			<pix x="102">12,40</pix>
+			<pix x="109">12,40</pix>
+		</state>
+		<state>
+			<pix x="91">12,40</pix>
+			<pix x="101">12,40</pix>
+		</state>
+	</states>
+</graphics>

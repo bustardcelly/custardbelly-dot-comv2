@@ -1,0 +1,21 @@
+<graphics>
+	<url>gfx/lives2.png</url>
+	<states>
+		<state>
+			<pix x="187">33,39</pix>
+			<pix x="210">33,39</pix>
+		</state>
+		<state>
+			<pix x="216">32,45</pix>
+			<pix x="231">32,45</pix>
+		</state>
+		<state>
+			<pix x="234">32,45</pix>
+			<pix x="249">32,45</pix>
+		</state>
+		<state>
+			<pix x="252">32,45</pix>
+			<pix x="267">32,45</pix>
+		</state>
+	</states>
+</graphics>

@@ -1,0 +1,9 @@
+<graphics>
+	<url>gfx/overlay2.png</url>
+	<states>
+		<state>
+			<pix x='0'>0,400</pix>
+			<pix x='550'>0,400</pix>
+		</state>
+	</states>
+</graphics>

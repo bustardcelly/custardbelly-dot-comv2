@@ -1,0 +1,42 @@
+<graphics>
+	<url>gfx/jail2.png</url>
+	<states>
+		<state>
+			<pix x="34">4,11</pix>
+			<pix x="36">4,5</pix>
+			<pix x="44">4,28</pix>
+			<pix x="46">4,5</pix>
+			<pix x="53">4,28</pix>
+			<pix x="54">4,28</pix>
+		</state>
+		<state>
+			<pix x="6">4,28</pix>
+			<pix x="8">4,5</pix>
+			<pix x="16">4,28</pix>
+			<pix x="18">4,5</pix>
+			<pix x="25">4,11</pix>
+			<pix x="26">4,11</pix>
+		</state>
+		<state>
+			<pix x="6">32,55</pix>
+			<pix x="8">54,55</pix>
+			<pix x="16">32,55</pix>
+			<pix x="18">54,55</pix>
+			<pix x="25">46,55</pix>
+			<pix x="26">46,55</pix>
+		</state>
+		<state>
+			<pix x="34">46,55</pix>
+			<pix x="36">54,55</pix>
+			<pix x="44">32,55</pix>
+			<pix x="46">54,55</pix>
+			<pix x="53">32,55</pix>
+			<pix x="55">39,52</pix>
+			<pix x="66">39,52</pix>
+		</state>
+		<state>
+			<pix x="21">21,29</pix>
+			<pix x="39">21,29</pix>
+		</state>
+	</states>
+</graphics>
